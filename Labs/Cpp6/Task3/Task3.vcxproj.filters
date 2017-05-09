@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Program.cpp" />
+    <ClCompile Include="Animal.cpp">
+      <Filter>Content\Animal</Filter>
+    </ClCompile>
+    <ClCompile Include="Cat.cpp">
+      <Filter>Content\Cat</Filter>
+    </ClCompile>
+    <ClCompile Include="Dog.cpp">
+      <Filter>Content\Dog</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Content">
+      <UniqueIdentifier>{8924fcd2-4856-4261-aef6-0475006f972b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\Animal">
+      <UniqueIdentifier>{9b4ce3f7-b46d-43cd-bb2c-268fafb1181a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\Cat">
+      <UniqueIdentifier>{969d354f-9bca-42ab-85c7-93764d68ca72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\Dog">
+      <UniqueIdentifier>{e57b272e-6a36-436c-93ad-ef5bd6d53668}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Animal.h">
+      <Filter>Content\Animal</Filter>
+    </ClInclude>
+    <ClInclude Include="Cat.h">
+      <Filter>Content\Cat</Filter>
+    </ClInclude>
+    <ClInclude Include="Dog.h">
+      <Filter>Content\Dog</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

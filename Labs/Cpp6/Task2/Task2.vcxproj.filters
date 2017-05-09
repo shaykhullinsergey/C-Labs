@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Program.cpp" />
+    <ClCompile Include="Alive.cpp">
+      <Filter>Content\Alive</Filter>
+    </ClCompile>
+    <ClCompile Include="Bird.cpp">
+      <Filter>Content\Bird</Filter>
+    </ClCompile>
+    <ClCompile Include="Fish.cpp">
+      <Filter>Content\Fish</Filter>
+    </ClCompile>
+    <ClCompile Include="Animal.cpp">
+      <Filter>Content\Animal</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Content">
+      <UniqueIdentifier>{3b832603-bba5-425e-8c2f-a8770ba5666e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\Alive">
+      <UniqueIdentifier>{ec516643-b806-4142-8157-ee8d656fe4e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\Bird">
+      <UniqueIdentifier>{f29fc56e-6406-4055-96c7-b6249cb2a792}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\Fish">
+      <UniqueIdentifier>{ed32beca-f26f-4d62-9952-6d2358278d44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\Animal">
+      <UniqueIdentifier>{49eedf23-2227-4a48-afab-af9ce406f86a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Alive.h">
+      <Filter>Content\Alive</Filter>
+    </ClInclude>
+    <ClInclude Include="Bird.h">
+      <Filter>Content\Bird</Filter>
+    </ClInclude>
+    <ClInclude Include="Fish.h">
+      <Filter>Content\Fish</Filter>
+    </ClInclude>
+    <ClInclude Include="Animal.h">
+      <Filter>Content\Animal</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
