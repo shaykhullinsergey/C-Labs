@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Program.cpp" />
+    <ClCompile Include="Vector2d.cpp">
+      <Filter>Content\Vector2d</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Content">
+      <UniqueIdentifier>{cf988dfd-f9c8-4ec3-91df-372ecfce65ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\Vector2d">
+      <UniqueIdentifier>{db4b8eb8-90b3-4045-acae-2dd0c360a969}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Vector2d.h">
+      <Filter>Content\Vector2d</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

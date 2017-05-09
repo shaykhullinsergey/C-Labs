@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Program.cpp" />
+    <ClCompile Include="Human.cpp">
+      <Filter>Content\Human</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss.cpp">
+      <Filter>Content\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Student.cpp">
+      <Filter>Content\Student</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Content">
+      <UniqueIdentifier>{1027a30a-0287-40ca-9159-061e98d0a351}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\Human">
+      <UniqueIdentifier>{9703026f-12b8-48df-88f0-9f3386770311}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\Student">
+      <UniqueIdentifier>{b29f82ce-4adb-47d1-a837-86650df4f49e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\Boss">
+      <UniqueIdentifier>{8c7a0aa2-0e4d-4e8e-9bc0-ffe8b47df986}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Human.h">
+      <Filter>Content\Human</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
+      <Filter>Content\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Student.h">
+      <Filter>Content\Student</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Program.cpp" />
+    <ClCompile Include="Carwash.cpp">
+      <Filter>Content\Carwash</Filter>
+    </ClCompile>
+    <ClCompile Include="Order.cpp">
+      <Filter>Content\Order</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Content">
+      <UniqueIdentifier>{c69d9a72-491c-40a2-8132-33f3d707f02d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\Carwash">
+      <UniqueIdentifier>{a1ec0344-13de-4474-bd1b-e2b08264baae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\Order">
+      <UniqueIdentifier>{ea61ae30-8fd8-41b4-b364-68fe993b8fc8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Carwash.h">
+      <Filter>Content\Carwash</Filter>
+    </ClInclude>
+    <ClInclude Include="Order.h">
+      <Filter>Content\Order</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

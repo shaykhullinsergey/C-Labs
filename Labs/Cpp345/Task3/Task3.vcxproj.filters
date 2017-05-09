@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Program.cpp" />
+    <ClCompile Include="Complex.cpp">
+      <Filter>Content\Complex</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Content">
+      <UniqueIdentifier>{e7f0eeef-0d2a-4fc8-bccb-33bc10219690}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\Complex">
+      <UniqueIdentifier>{3a619086-a79f-4cf4-9089-2b38c90e5880}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Complex.h">
+      <Filter>Content\Complex</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Program.cpp" />
+    <ClCompile Include="Student.cpp">
+      <Filter>Content\Student</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Content">
+      <UniqueIdentifier>{57b057f5-61e7-4e34-84fa-c9c8cfa6f0ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\Student">
+      <UniqueIdentifier>{9bc997f0-fcb2-40e6-b9b4-3e13721f272b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Student.h">
+      <Filter>Content\Student</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
